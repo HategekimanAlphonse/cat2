@@ -58,7 +58,7 @@ if (isset ($_POST['name'])  && isset($_POST['email']) && isset($_POST['phone_num
           <input type="house_kind" value="<?= $person->house_kind; ?>" name="house_kind" id="house_kind" class="form-control">
         </div>
         <div class="form-group">
-          <button type="submit" class="btn btn-info">Update Tenant</button>
+          <button type="submit" class="btn btn-info">Update Tenants</button>
         </div>
       </form>
     </div>
